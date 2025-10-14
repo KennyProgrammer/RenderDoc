@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\replay">
+      <UniqueIdentifier>{45E87668-31B6-6A6E-1A4A-DB9406B746D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\renderdoc_app.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\apidefs.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\capture_options.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\common_pipestate.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\control_types.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\d3d11_pipestate.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\d3d12_pipestate.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\data_types.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\gl_pipestate.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\pipestate.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\rdcarray.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\rdcdatetime.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\rdcflatmap.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\rdcpair.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\rdcstr.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\renderdoc_replay.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\replay_enums.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\resourceid.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\shader_types.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\stringise.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\structured_data.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\version.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\replay\vk_pipestate.h">
+      <Filter>include\replay</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\renderdoc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

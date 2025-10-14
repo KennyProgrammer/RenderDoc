@@ -16,7 +16,8 @@ project "RenderDoc"
 	objdir        ("%{ForceDir.BinLib}/" .. BuildDir .. "/%{prj.name}/Obj")
 
 	files {
-		"include/**.h"
+		"include/**.h",
+		"src/**.cpp"
 	}
 	
 	includedirs {
